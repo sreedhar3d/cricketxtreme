@@ -1,0 +1,27 @@
+This file lists the ideal directory structure of the project.
+
+license-source.txt	GPL 3.0 License Text
+license-content.txt	CC By-SA 3.0 License Text
+
+Readme.txt		Project Readme
+
+/			project root
+/bin			binaries
+/data			data
+
+/docs			documentation
+/docs/design		 design document
+/docs/dev		 developer guidelines
+/docs/user		 user manual
+
+/src			source source code directory
+/src/class		 class definitions
+/src/engine		 engine and core modules
+
+/ui			 ui elements
+/ui/gfx			  ui - visual assets
+/ui/sfx			  ui - sound assets
+/ui/lang		  ui - language resources
+
+/.project	Aptana Project Description
+/.pydevproject	Aptana PyDev Project Description
