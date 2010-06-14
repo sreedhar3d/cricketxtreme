@@ -1,0 +1,32 @@
+#summary Roadmap for Version 1.0.0
+
+= Introduction =
+This document lists the objective and feature list for version 1.0.0 of the game
+
+
+= Objective =
+The player should be able to play a single user match in one of the supported GameModes completely with an intelligent umpire, dynamic weather, passionate crowd, and all international cricket teams.
+
+==Supported Game Modes==
+===Domestic Cricket===
+  * One Day Match
+  * Four Day Match
+  * No Season
+===International Cricket===
+  * One Day International
+  * Five Day Test Cricket
+  * Twenty Over Match
+  * No Season
+===Tournaments===
+  * No Tournaments supported in this release
+===Multiplayer===
+  * No Multiplayer Model Supported. Not even human vs human on same computer
+
+==Features==
+  * The Game will be *cross platform*, ie, will at least run on Windows, Mac and Linux.
+  * Player Injuries and 'Retired Hurts' do happen
+  * Text Based Commentary included
+  * Completely localizable game content
+  * Intelligent Umpires (but can make errors of judegment)
+  * Dynamic Weather (Weather can change between matches, weather effects game)
+
