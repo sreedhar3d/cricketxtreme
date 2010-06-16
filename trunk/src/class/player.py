@@ -7,17 +7,17 @@
 
 class Player(object):
     """This lists all player variables and basic functions to manipulate them"""
-    FirstName = "First Name"
-    LastName = "Last Name"
-    Age = 30
-    BattingStyle = 0
-    BattingSide = 0
-    BowlingPref = 0
-    PlayHand = 0
-    BowlType = 0
-    isWicket = False
-    isStar = False
-    Team = 0
+    FirstName = "First Name" 				# First Name of Player
+    LastName = "Last Name"					# Last Name of Player
+    Age = 30								# Age of Player (will be used in later relases for managing retirements)
+    BattingStyle = 0						# How does the player bat? -1 = Defensive, 0 = Neutral, 1 = Aggresive
+    BattingSide = 0							# What is the preferred side player plays to? -1 = Leg Side, 0 = Neutral, 1 = Off Side
+    BowlingPref = 0							# What type of bowls the player is best suited to play? -1 = Spin, 0 = Neutral, 1 = Pace
+    PlayHand = 0							# 0 = LHB, 1 = RHB
+    BowlType = 0							# What is the type of Bowler?  -1 = Spin, 0 = Neutral, 1 = Pace
+    isWicket = False						# Is the player a wicket keeper?
+    isStar = False							# Is the player a star player in the team? (will affect commentators and crowd, later)
+    
     Aggressiveness = 0
     Agility = 0
     Awareness = 0
