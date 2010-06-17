@@ -5,6 +5,8 @@
 @license: GNU GPL 3.0. Read /license-source.txt for more details
 '''
 
-import /class/player.py
+import class-player
 
-Batsman1 = pl
+Batsman1 = Player
+Batsman2 = Player
+Bowler = Player
